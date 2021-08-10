@@ -1,0 +1,21 @@
+- Podemos modificar la reserva al completo, los datos de la reserva, por si el huesped decide cambiar el check-in/check-out,
+los datos del huesped por si en algún momento prefiere cambiar y dar de alta la reserva con otra persona, y la habitación.
+Tanto el usuario como la fecha de carga no son posibles de cambiar, la fecha dio problemas no toma el valuey el usuario 
+es quien lo dio de alta en un principio.
+
+- Aunque el cliente no nos pidio mostrar los empleados se crea una tabla donde se muestran y donde se pueden eliminar 
+en caso de que estos sean despedidos, también pueden modificarse en caso de que cambien el cargo o algún otro dato.
+
+- EL cliente no pide que se muestren las habitaciones pero lo coloco para que los empleados puedan saber qué habitación
+asignar ya que a la hora de registrar una reserva solamente se puede asignar el número de la habitación, no supe como 
+validar y no me alcanzaba el tiempo, así que los empleados deberán corroborar con la lista de habitaciones. En esta
+se puede eliminar la habitación por si en un futuro no se usa más o editarla por si cambia el nombre, precio, o cualquier
+otro dato.
+
+- En la página del inicio me pareció interesante colocar varias cards con información relacionada a la empresa, no redirige
+a ningún lado pero era para darle un toque, hubiese hecho un sidebar pero me di cuenta tarde.
+
+- Cuando se registra algo se muestra otro jsp con los datos recibidos para corroborar por parte del empleado. No coloqué
+el precio final a la hora de registrar, debe buscarse la reserva en la lista, fue cuestión de tiempo.
+
+- No pude colocar validación para ver si la habitación está asignada desde/hasta, no me dio el tiempo.
